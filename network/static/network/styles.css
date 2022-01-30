@@ -1,0 +1,34 @@
+:root{
+    --width: 25rem;
+    --height: 35rem;
+}
+
+textarea{
+    min-height:200px;
+}
+
+.space{
+    padding: 0px 0px 145px 145px;
+}
+
+.noHTML{
+    onkeyup:javascript:this.value=this.value.replace(/[<,>]/g,'');
+}
+
+html { height: 100%; overflow:auto; }
+
+body {height: 100%; }
+
+
+.currentPageColor{
+    color:lightgray;
+}
+
+.containerColor{
+    background-color:beige;
+    border-radius:20px;
+}
+
+.buttonColor{
+    background-color:white;
+}
